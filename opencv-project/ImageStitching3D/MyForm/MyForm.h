@@ -693,29 +693,7 @@ namespace Project2 {
 			
 			myStitcher.warp2();
 			
-			/*
-			Mat warp1 = imread("./ImagesReal//imgWarped.jpg");
-			//Mat warp2 = imread("./ImagesReal//imgWarped2.jpg");
-
-			Mat resized;
-
-			resize(warp1, resized, cv::Size(480, 293), 0, 0, CV_INTER_LINEAR);
-
-			imwrite("./ImagesGUI//warp1Show.jpg", resized);
-
-			imagee = Image::FromFile("./ImagesGUI//warp1Show.jpg");
-
-			pictureBox3->Image = imagee;
-			*/
-			//Mat resized2;
-
-			//resize(warp2, resized2, cv::Size(480, 293), 0, 0, CV_INTER_LINEAR);
-
-			//imwrite("./ImagesGUI//warp2Show.jpg", resized2);
-
-			//imagee = Image::FromFile("./ImagesGUI//warp2Show.jpg");
-
-			//pictureBox4->Image = imagee;
+			
 
 		}
 
